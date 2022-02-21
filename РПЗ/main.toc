@@ -1,13 +1,18 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Введение}{3}{section.1}%
 \contentsline {section}{\numberline {2}Аналитический раздел}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Понятие ключевого слова}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Извлечение ключевых слов}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Общая схема извлечения ключевых слов из текста}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.1}Введение}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Понятие ключевого слова}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Извлечение ключевых слов}{5}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Систематизация методов}{7}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Статистические методы}{8}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Графовые}{8}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Лингвистические}{8}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Гибридные}{8}{subsubsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.5}Вывод}{8}{subsection.2.5}%
-\contentsline {section}{Список использованных источников}{9}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.4.2}Графовые}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Лингвистические}{10}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Гибридные}{10}{subsubsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.5}Аналоги}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Вывод}{10}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Конструкторский}{11}{section.3}%
+\contentsline {section}{\numberline {4}Технологический}{12}{section.4}%
+\contentsline {section}{\numberline {5}Анали}{13}{section.5}%
+\contentsline {section}{\numberline {6}Заключение}{14}{section.6}%
+\contentsline {section}{Список использованных источников}{15}{section.6}%
