@@ -1,18 +1,27 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Введение}{3}{section.1}%
-\contentsline {section}{\numberline {2}Аналитический раздел}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Введение}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Понятие ключевого слова}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Извлечение ключевых слов}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Систематизация методов}{7}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Статистические методы}{8}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Графовые}{10}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Лингвистические}{10}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Гибридные}{10}{subsubsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.5}Аналоги}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Вывод}{10}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Конструкторский}{11}{section.3}%
-\contentsline {section}{\numberline {4}Технологический}{12}{section.4}%
-\contentsline {section}{\numberline {5}Анали}{13}{section.5}%
-\contentsline {section}{\numberline {6}Заключение}{14}{section.6}%
-\contentsline {section}{Список использованных источников}{15}{section.6}%
+\contentsline {section}{\numberline {1}Введение}{4}{section.1}%
+\contentsline {section}{\numberline {2}Аналитический раздел}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Введение}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Понятие ключевого слова}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Извлечение ключевых слов}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Систематизация методов}{8}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Статистические методы}{9}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Графовые}{12}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Лингвистические}{12}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Гибридные}{12}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Ограничения}{12}{subsubsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.5}Заключение}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Конструкторский}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Введение}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}RAKE}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}YAKE}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Заключение}{13}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Технологический}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Введение}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Системные требования}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Язык программирования}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Среда разработки}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Заключение}{14}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Эксперементальный раздел}{15}{section.5}%
+\contentsline {section}{\numberline {6}Заключение}{16}{section.6}%
+\contentsline {section}{Список использованных источников}{17}{section.6}%
