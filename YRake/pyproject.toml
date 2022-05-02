@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yrake"
+version = "0.1.0"
+description = "Dimplome Work by Barsukov Nikita"
+authors = ["bezzubik <Barsik98n@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+yake = "^0.4.8"
+numpy = "^1.22.3"
+PyQt6 = "^6.3.0"
+textract = "^1.6.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
