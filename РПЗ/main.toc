@@ -1,4 +1,4 @@
-\babel@toc {russian}{}\relax 
+\babel@toc {russian}{}
 \contentsline {section}{\numberline {1}Введение}{4}{section.1}%
 \contentsline {section}{\numberline {2}Аналитический раздел}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Введение}{6}{subsection.2.1}%
@@ -6,10 +6,8 @@
 \contentsline {subsection}{\numberline {2.3}Извлечение ключевых слов}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Систематизация методов}{8}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Статистические методы}{9}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Графовые}{12}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Лингвистические}{12}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Гибридные}{12}{subsubsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.5}Ограничения}{12}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.2}Лингвистические}{12}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Гибридные}{12}{subsubsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.5}Заключение}{12}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Конструкторский}{13}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Введение}{13}{subsection.3.1}%
