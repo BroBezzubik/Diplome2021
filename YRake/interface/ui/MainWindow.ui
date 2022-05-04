@@ -51,29 +51,29 @@
        <property name="spacing">
         <number>0</number>
        </property>
-       <item row="0" column="0">
-        <widget class="QCheckBox" name="YakeMethod">
-         <property name="text">
-          <string>Yake</string>
-         </property>
-        </widget>
-       </item>
        <item row="2" column="0">
-        <widget class="QCheckBox" name="RakeYakeMethod">
-         <property name="text">
-          <string>Yake + Rake</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QCheckBox" name="RakeMethod">
+        <widget class="QCheckBox" name="RakeCheckBox">
          <property name="text">
           <string>Rake</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="0">
-        <widget class="QCheckBox" name="KeaMethod">
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="YakeModifiedCheckBox">
+         <property name="text">
+          <string>Yake modified</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="YakeCheckBox">
+         <property name="text">
+          <string>Yake</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="KeaCheckBox">
          <property name="text">
           <string>Kea</string>
          </property>

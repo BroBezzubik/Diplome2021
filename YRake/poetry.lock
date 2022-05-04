@@ -249,6 +249,14 @@ Pillow = ">=3.3.2"
 XlsxWriter = ">=0.5.7"
 
 [[package]]
+name = "python-rake"
+version = "1.5.0"
+description = "A python module implementing the Rapid Automatic Keyword Extraction algorithm."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pytz-deprecation-shim"
 version = "0.1.0.post0"
 description = "Shims to make deprecation of pytz easier"
@@ -310,17 +318,6 @@ description = "Library for performing speech recognition, with support for sever
 category = "main"
 optional = false
 python-versions = "*"
-
-[[package]]
-name = "tabulate"
-version = "0.8.9"
-description = "Pretty-print tabular data"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.extras]
-widechars = ["wcwidth"]
 
 [[package]]
 name = "textract"
@@ -386,26 +383,10 @@ category = "main"
 optional = false
 python-versions = ">=3.4"
 
-[[package]]
-name = "yake"
-version = "0.4.8"
-description = "Keyword extraction Python package"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-click = ">=6.0"
-jellyfish = "*"
-networkx = "*"
-numpy = "*"
-segtok = "*"
-tabulate = "*"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a72b26ead4c87b4f530c8e4a15987768cc67da5e5176a7f8c3602a95cbdb4bc3"
+content-hash = "fc504076d92e6a016dcaac831b3b02c779afea260a27d926a46053b4c5b144a0"
 
 [metadata.files]
 argcomplete = [
@@ -677,6 +658,10 @@ pyqt6-sip = [
 python-pptx = [
     {file = "python-pptx-0.6.21.tar.gz", hash = "sha256:7798a2aaf89563565b3c7120c0acfe9aff775db0db3580544e3bf4840c2e378f"},
 ]
+python-rake = [
+    {file = "python-rake-1.5.0.tar.gz", hash = "sha256:7165a713208890de0bdfc2da8eb4269336114985135be10cb8d752ba9fc3fbd4"},
+    {file = "python_rake-1.5.0-py3-none-any.whl", hash = "sha256:c90d7de388b39b274e07eac0313e47064b80f0d7f2d23841d4dfde8fc455c412"},
+]
 pytz-deprecation-shim = [
     {file = "pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl", hash = "sha256:8314c9692a636c8eb3bda879b9f119e350e93223ae83e70e80c31675a0fdc1a6"},
     {file = "pytz_deprecation_shim-0.1.0.post0.tar.gz", hash = "sha256:af097bae1b616dde5c5744441e2ddc69e74dfdcb0c263129610d85b87445a59d"},
@@ -776,10 +761,6 @@ soupsieve = [
 speechrecognition = [
     {file = "SpeechRecognition-3.8.1-py2.py3-none-any.whl", hash = "sha256:4d8f73a0c05ec70331c3bacaa89ecc06dfa8d9aba0899276664cda06ab597e8e"},
 ]
-tabulate = [
-    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
-    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
-]
 textract = [
     {file = "textract-1.6.5-py3-none-any.whl", hash = "sha256:0accd78ec42864e3e3827f9ef798ced9aac4727b664303b724a198fed73fa438"},
     {file = "textract-1.6.5.tar.gz", hash = "sha256:68f0f09056885821e6c43d8538987518daa94057c306679f2857cc5ee66ad850"},
@@ -799,8 +780,4 @@ xlrd = [
 xlsxwriter = [
     {file = "XlsxWriter-3.0.3-py3-none-any.whl", hash = "sha256:df0aefe5137478d206847eccf9f114715e42aaea077e6a48d0e8a2152e983010"},
     {file = "XlsxWriter-3.0.3.tar.gz", hash = "sha256:e89f4a1d2fa2c9ea15cde77de95cd3fd8b0345d0efb3964623f395c8c4988b7f"},
-]
-yake = [
-    {file = "yake-0.4.8-py2.py3-none-any.whl", hash = "sha256:d46793266826468b4aecb668c51e677b7bc304f1bd3a15e100e324852ec5a0c3"},
-    {file = "yake-0.4.8.tar.gz", hash = "sha256:859f379ac49ca204a0bc1527217f937321e87b68287f81db9700fc1039fd529a"},
 ]
