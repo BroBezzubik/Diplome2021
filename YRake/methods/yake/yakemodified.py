@@ -12,7 +12,7 @@ from .datarepresentation import DataCore
 
 class YakeModified(object):
 
-    def __init__(self, lan="en", n=3, dedupLim=0.9, dedupFunc='seqm', windowsSize=1, top=20, features=None,
+    def __init__(self, lan="ru", n=3, dedupLim=0.9, dedupFunc='seqm', windowsSize=1, top=20, features=None,
                  stopwords=None):
         self.lan = lan
 

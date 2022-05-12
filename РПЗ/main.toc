@@ -11,9 +11,8 @@
 \contentsline {subsection}{\numberline {2.5}Заключение}{12}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Конструкторский}{13}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Введение}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}RAKE}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}YAKE}{13}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Заключение}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.2}YAKE}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Заключение}{13}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Технологический}{14}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Введение}{14}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Системные требования}{14}{subsection.4.2}%

@@ -52,28 +52,28 @@
         <number>0</number>
        </property>
        <item row="2" column="0">
-        <widget class="QCheckBox" name="RakeCheckBox">
+        <widget class="QCheckBox" name="Rake_CheckBox">
          <property name="text">
           <string>Rake</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QCheckBox" name="YakeModifiedCheckBox">
+        <widget class="QCheckBox" name="Yakemodified_CheckBox">
          <property name="text">
           <string>Yake modified</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0">
-        <widget class="QCheckBox" name="YakeCheckBox">
+        <widget class="QCheckBox" name="Yake_CheckBox">
          <property name="text">
           <string>Yake</string>
          </property>
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QCheckBox" name="KeaCheckBox">
+        <widget class="QCheckBox" name="Kea_CheckBox">
          <property name="text">
           <string>Kea</string>
          </property>
