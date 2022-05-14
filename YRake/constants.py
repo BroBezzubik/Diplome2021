@@ -17,3 +17,4 @@ and retrieved [8]. At present, keyphrase extraction is widely used in many field
 language processing (NLP), information retrieval (IR) [9–12], opinion mining [13–15], document
 indexing [16], and document classification [17].
 """
+LITERATURE_DIRECTORY_PATH = "/home/bezzubik/Projects/Diplome2021/YRake/Literature/"

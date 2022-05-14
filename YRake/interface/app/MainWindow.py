@@ -2,8 +2,7 @@ import sys
 from PyQt6 import QtWidgets
 
 from interface.ui import MainWindow
-
-from .ResultWindow import ResultWindow
+from interface.app.SettingsWindow import SettingsWindow
 
 import textract
 from methods.yake import Yake
@@ -12,6 +11,7 @@ from methods.rake import Rake
 
 from prettytable import PrettyTable
 
+from constants import LITERATURE_DIRECTORY_PATH
 
 class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
     def __init__(self):
@@ -20,61 +20,72 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         # Устанавливаем внутренний интерфейс
         self.setupUi(self)
 
+        # Установка дополнительных окон
+        self.settings_window = SettingsWindow()
+
         # Установка связей
-        self.SelectFileButton.clicked.connect(self.browse_files)
+        self.select_file_button.clicked.connect(self.browse_files)
         self.ExtractButton.clicked.connect(self.run)
 
         # Дополнительные внутрнение переменые
         self.file = None
+        self.methods_checkbox = {
+            'yake': self.yake_checkbox,
+            'yakemodified': self.yakemodified_checkbox,
+        }
+        self.methods = {
+            'yake': Yake,
+            'yakemodified': YakeModified,
+        }
 
     def get_text(self):
-        test = self.TextEdit.toPlainText()
+        text = self.TextEdit.toPlainText()
         if self.file:
             text = textract.process(self.file)
             # Добавлена заглушка что бы постоянно не генерировать и не вставлять текст
-            text = textract.process(
-                '/home/bezzubik/Projects/Diplome2021/YRake/Literature/3420-7350-1-SM.pdf',
-            )
             return text.decode('utf-8')
 
     def get_settings(self):
-        pass
+        return self.settings_window.get_settings()
 
     def get_methods(self):
-        pass
+        return {key: self.methods[key] for key, value in self.methods_checkbox.items() if value.isChecked()}
 
-    def extract_keywords(self, methods, settings):
-        pass
+    def setup_methods(self, methods_class, settings):
+        methods = {}
+        for key, method_class in methods_class.items():
+            methods[key] = method_class(**settings[key])
+        return methods
 
+    def extract_keywords(self, text, methods):
+        result = {}
+        for method_name, method in methods.items():
+            result[method_name] = method.extract_keywords(text)
+        return result
 
+    def display_result(self, result):
+        for key, method_data in result.items():
+            table = PrettyTable(field_names=['keyword', 'score'])
+            for result in method_data:
+                table.add_row(result)
+
+            print(table)
 
     def browse_files(self):
-        pass
+        file = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/')[0]
+        self.file_name_label.setText(file.rsplit('/', 1)[1])
+        self.file = file
+
+    def show_settings(self):
+        self.settings_window.show()
 
     def run(self):
         text = self.get_text()
         settings = self.get_settings()
-        result = self.extract_keywords()
-        # text = self.TextEdit.toPlainText()
-        #
-        # if self.file:
-        #     text = textract.process(self.file)
-        #
-        # text = textract.process(
-        #     '/home/bezzubik/Projects/Diplome2021/YRake/Literature/3420-7350-1-SM.pdf',
-        # )
-        #
-        # text = text.decode('utf-8')
-        #
-        # result = {}
-        # for key, method in self.methods.items():
-        #     result[key] = method.extract_keywords(text)
-        #
-        # for key, method_data in result.items():
-        #     table = PrettyTable()
-        #     for result in method_data:
-        #         table.add_row(result)
-        #
-        #     print(table)
+        methods = self.get_methods()
+        methods = self.setup_methods(methods, settings)
+        result = self.extract_keywords(text, methods)
+        self.display_result(result)
+
 
 

@@ -15,6 +15,16 @@
   </property>
   <widget class="QWidget" name="CentralWidget">
    <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextEdit" name="TextEdit"/>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QPushButton" name="ExtractButton">
+      <property name="text">
+       <string>Извлечь</string>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="0">
      <widget class="QGroupBox" name="MethodsBox">
       <property name="enabled">
@@ -52,30 +62,39 @@
         <number>0</number>
        </property>
        <item row="2" column="0">
-        <widget class="QCheckBox" name="Rake_CheckBox">
+        <widget class="QCheckBox" name="rake_checkbox">
          <property name="text">
           <string>Rake</string>
          </property>
         </widget>
        </item>
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="kea_checkbox">
+         <property name="text">
+          <string>Kea</string>
+         </property>
+        </widget>
+       </item>
        <item row="1" column="0">
-        <widget class="QCheckBox" name="Yakemodified_CheckBox">
+        <widget class="QCheckBox" name="yakemodified_checkbox">
          <property name="text">
           <string>Yake modified</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0">
-        <widget class="QCheckBox" name="Yake_CheckBox">
+        <widget class="QCheckBox" name="yake_checkbox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="text">
           <string>Yake</string>
          </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QCheckBox" name="Kea_CheckBox">
-         <property name="text">
-          <string>Kea</string>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="tristate">
+          <bool>false</bool>
          </property>
         </widget>
        </item>
@@ -89,14 +108,14 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QLabel" name="FileName">
+        <widget class="QLabel" name="file_name_label">
          <property name="text">
           <string>Имя файла</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="SelectFileButton">
+        <widget class="QPushButton" name="select_file_button">
          <property name="text">
           <string>Выбрать файл</string>
          </property>
@@ -105,15 +124,12 @@
       </layout>
      </widget>
     </item>
-    <item row="2" column="0" colspan="2">
-     <widget class="QPushButton" name="ExtractButton">
+    <item row="4" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>Извлечь</string>
+       <string>Настройки</string>
       </property>
      </widget>
-    </item>
-    <item row="0" column="0" colspan="2">
-     <widget class="QTextEdit" name="TextEdit"/>
     </item>
    </layout>
   </widget>
@@ -130,5 +146,25 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>show_settings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>648</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>712</x>
+     <y>599</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>show_settings()</slot>
+ </slots>
 </ui>
