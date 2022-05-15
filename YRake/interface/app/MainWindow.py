@@ -72,9 +72,9 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
             print(table)
 
     def browse_files(self):
-        file = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/')[0]
-        self.file_name_label.setText(file.rsplit('/', 1)[1])
-        self.file = file
+        file_path = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/Diplome2021/YRake/Literature')[0]
+        self.file_name_label.setText(file_path.rsplit('/', 1)[1])
+        self.file = file_path
 
     def show_settings(self):
         self.settings_window.show()
