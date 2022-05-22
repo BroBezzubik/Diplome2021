@@ -1,5 +1,5 @@
 import sys
-from PyQt6 import QtWidgets
+from PyQt5 import QtWidgets
 
 from interface.ui import MainWindow
 from interface.app.SettingsWindow import SettingsWindow
@@ -8,10 +8,9 @@ import textract
 from methods.yake import Yake
 from methods.yake import YakeModified
 from methods.rake import Rake
+from methods.textrank import TextRank
 
 from prettytable import PrettyTable
-
-from constants import LITERATURE_DIRECTORY_PATH
 
 class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
     def __init__(self):
@@ -28,22 +27,19 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         self.ExtractButton.clicked.connect(self.run)
 
         # Дополнительные внутрнение переменые
-        self.file = None
+        self.files = None
         self.methods_checkbox = {
             'yake': self.yake_checkbox,
             'yakemodified': self.yakemodified_checkbox,
+            'rake': self.rake_checkbox,
+            'textrank': self.textrank_checkbox,
         }
         self.methods = {
             'yake': Yake,
             'yakemodified': YakeModified,
+            'rake': Rake,
+            'textrank': TextRank
         }
-
-    def get_text(self):
-        text = self.TextEdit.toPlainText()
-        if self.file:
-            text = textract.process(self.file)
-            # Добавлена заглушка что бы постоянно не генерировать и не вставлять текст
-            return text.decode('utf-8')
 
     def get_settings(self):
         return self.settings_window.get_settings()
@@ -71,21 +67,65 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
 
             print(table)
 
+    def simpl_result(self, result):
+        for key, method_data in result.items():
+            print(f"Метод: {key}")
+            if key == "rake":
+                result_text = ', '.join([str(info[1]) for info in method_data])
+            else:
+                result_text = ', '.join([str(info[0]) for info in method_data])
+            print(result_text)
+            print("\n")
+
+
     def browse_files(self):
-        file_path = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/Diplome2021/YRake/Literature')[0]
-        self.file_name_label.setText(file_path.rsplit('/', 1)[1])
-        self.file = file_path
+        files = QtWidgets.QFileDialog.getOpenFileNames(self, 'Select files', directory='/www/')[0]
+        if len(files) > 1:
+            self.file_name_label.setText(f'Выбрано {len(files)}')
+        else:
+            self.file_name_label.setText(files[0].rsplit('/', 1)[1])
+        self.files = files
+
+    # def get_text(self):
+    #     text = self.TextEdit.toPlainText()
+    #     if self.file:
+    #         text = textract.process(self.file)
+    #         # Добавлена заглушка что бы постоянно не генерировать и не вставлять текст
+    #         return text.decode('utf-8')
+    #     return text
+
+    def get_text(self):
+        for file in self.files:
+            yield textract.process(file).decode('utf-8'), file.rsplit('/', 1)[1]
+
+
+    # def browse_files(self):
+    #     file_path = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/Diplome2021/YRake/Literature')[0]
+    #     self.file_name_label.setText(file_path.rsplit('/', 1)[1])
+    #     self.file = file_path
 
     def show_settings(self):
         self.settings_window.show()
 
     def run(self):
-        text = self.get_text()
         settings = self.get_settings()
         methods = self.get_methods()
         methods = self.setup_methods(methods, settings)
-        result = self.extract_keywords(text, methods)
-        self.display_result(result)
+        for text, filename in self.get_text():
+            result = self.extract_keywords(text, methods)
+            print(f"Документ работы: {filename}")
+            self.simpl_result(result)
+            print("\n\n")
+
+
+    # Для одиночных запусков
+    # def run(self):
+    #     text = self.get_text()
+    #     settings = self.get_settings()
+    #     methods = self.get_methods()
+    #     methods = self.setup_methods(methods, settings)
+    #     result = self.extract_keywords(text, methods)
+    #     self.display_result(result)
 
 
 

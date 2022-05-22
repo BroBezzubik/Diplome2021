@@ -69,16 +69,22 @@
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QCheckBox" name="kea_checkbox">
+        <widget class="QCheckBox" name="textrank_checkbox">
          <property name="text">
-          <string>Kea</string>
+          <string>Textrank</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
         <widget class="QCheckBox" name="yakemodified_checkbox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="text">
           <string>Yake modified</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -91,7 +97,7 @@
           <string>Yake</string>
          </property>
          <property name="checked">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
          <property name="tristate">
           <bool>false</bool>

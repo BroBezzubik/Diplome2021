@@ -14,32 +14,44 @@
 \usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\usepackage{amsmath}
 
+\usepackage{adjustbox}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 
 \usepackage{todonotes}
+\usepackage{titlesec}
+\usepackage{comment}
+
+
 
 % Настройки листингов.
 \include{listings.inc}
 
+% настройка формата изображений
+\numberwithin{figure}{section}
+\usepackage[labelsep=none]{caption}
+
 \begin{document}
     \include{title}
     \newpage
-    Страничка для ТЗ
+    Страничка для титульного листа
     \newpage
+    Задание стр 1
+    \newpage
+    Задание стр 2
+    \newpage	
     \include{ref}
     \newpage
     \tableofcontents
-    
     \listoftodos
-    
+    \include{referat}
     \include{intro}
     \include{analytical}
     \include{design}
     \include{techn}
     \include{exper}
-    %\addcontentsline{toc}{section}{Заключение}
     \include{concl}
     \include{biblist}
     \include{supplement}

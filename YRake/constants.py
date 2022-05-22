@@ -1,20 +1,36 @@
 DEFAULT_TEXT = """
-Under the background of the continuous development of the information age, the content based
-on words grows exponentially, making it more challenging to manage this large-scale information.
-This information could be processed manually in the past. However, now, it is impossible because
-of the asymmetry between the amount of data and the ability to process information manually,
-which exemplifies the efforts to handle the current data scales, thereby promoting the development
-of automatic key sentence and keyphrase extraction methods that use the mighty computing power
-of computers to replace the manual labor [1]. Keyphrase extraction and key sentence extraction are
-two important subtasks in the text generation task [2–5]. Among them, the key sentence extraction
-task separates the most important part of a text and combines it in a specific way to an abstract that
-can express the text’s main content while retaining the readability [6]. The main task of keyphrase
-extraction is to identify a single word or phrase representing the text’s main content [7]. The extracted
-results are called keyphrases, the most common of which include the keyword in the abstracts of
-academic papers, representing the core content that the author wants to express. As the concise
-expression of an article’s main idea, keyphrase makes the information easy to be managed, classified,
-and retrieved [8]. At present, keyphrase extraction is widely used in many fields, such as natural
-language processing (NLP), information retrieval (IR) [9–12], opinion mining [13–15], document
-indexing [16], and document classification [17].
+У лукоморья дуб зелёный;
+Златая цепь на дубе том:
+И днём и ночью кот учёный
+Всё ходит по цепи кругом;
+Идёт направо — песнь заводит,
+Налево — сказку говорит.
+Там чудеса: там леший бродит,
+Русалка на ветвях сидит;
+Там на неведомых дорожках
+Следы невиданных зверей;
+Избушка там на курьих ножках
+Стоит без окон, без дверей;
+Там лес и дол видений полны;
+Там о заре прихлынут волны
+На брег песчаный и пустой,
+И тридцать витязей прекрасных
+Чредой из вод выходят ясных,
+И с ними дядька их морской;
+Там королевич мимоходом
+Пленяет грозного царя;
+Там в облаках перед народом
+Через леса, через моря
+Колдун несёт богатыря;
+В темнице там царевна тужит,
+А бурый волк ей верно служит;
+Там ступа с Бабою Ягой
+Идёт, бредёт сама собой,
+Там царь Кащей над златом чахнет;
+Там русский дух… там Русью пахнет!
+И там я был, и мёд я пил;
+У моря видел дуб зелёный;
+Под ним сидел, и кот учёный
+Свои мне сказки говорил.
 """
 LITERATURE_DIRECTORY_PATH = "/home/bezzubik/Projects/Diplome2021/YRake/Literature/"

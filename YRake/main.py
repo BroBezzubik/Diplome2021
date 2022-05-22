@@ -1,8 +1,10 @@
 import sys
 
-from PyQt6 import QtWidgets
+from PyQt5 import QtWidgets
 
 from interface.app.MainWindow import MainWindow
+
+
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
