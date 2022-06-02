@@ -1,44 +1,42 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Реферат}{6}{section.1}%
-\contentsline {section}{\numberline {2}Введение}{7}{section.2}%
-\contentsline {section}{\numberline {3}Аналитический раздел}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Задача автоматического извлечения ключевых слов из текста на естественном языке}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Извлечение ключевых слов}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Систематизация методов}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}TF-IDF}{15}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Rake}{16}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Yake}{16}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Предварительная обработка текста и определение списка кандидатов}{17}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Вычисление свойсв}{18}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Регистр ($T_{Case}$)}{19}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Позиция термина ($T_{position}$)}{19}{subsubsection.3.6.4}%
-\contentsline {subsubsection}{\numberline {3.6.5}Нормализация частоты термина ($TF_{norm}$)}{20}{subsubsection.3.6.5}%
-\contentsline {subsubsection}{\numberline {3.6.6}Связь термина с контекстом}{21}{subsubsection.3.6.6}%
-\contentsline {subsubsection}{\numberline {3.6.7}Другое предложение термина ($T_{sentence}$)}{22}{subsubsection.3.6.7}%
-\contentsline {subsubsection}{\numberline {3.6.8}Подсчет оценки термина}{23}{subsubsection.3.6.8}%
-\contentsline {subsection}{\numberline {3.7}Сравнение методов}{23}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Модификация}{24}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Заключение}{25}{subsection.3.9}%
-\contentsline {section}{\numberline {4}Конструкторский раздел}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Yake}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Архитектура ПО}{28}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Вывод}{32}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Технологический}{35}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Системные требования}{35}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Язык программирования}{35}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Python}{36}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}C++}{36}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}C\#}{37}{subsubsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.3}Формат файлов}{38}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Библиотеки}{38}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Графический интерфейс}{40}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Среда разработки}{41}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Система контроля версий}{43}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Вывод}{43}{subsection.5.8}%
-\contentsline {section}{\numberline {6}Экспериментальный раздел}{44}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Исследование зависимости результата от параметра n}{44}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Исследование точности метода}{45}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Исследование эффективности метода}{46}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Вывод}{48}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Заключение}{49}{section.7}%
-\contentsline {section}{Список использованных источников}{50}{Item.124}%
+\contentsline {chapter}{РЕФЕРАТ (АННОТАЦИЯ)}{7}{chapter*.4}%
+\contentsline {chapter}{ВВЕДЕНИЕ}{8}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Аналитический раздел}{11}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Задача автоматического извлечения ключевых слов из текста на естественном языке}{11}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Систематизация методов}{12}{subsection.1.0.2}%
+\contentsline {subsection}{\numberline {1.0.3}TF-IDF}{16}{subsection.1.0.3}%
+\contentsline {subsection}{\numberline {1.0.4}Rake}{17}{subsection.1.0.4}%
+\contentsline {subsection}{\numberline {1.0.5}Yake}{17}{subsection.1.0.5}%
+\contentsline {subsubsection}{Предварительная обработка текста и определение списка кандидатов}{18}{subsubsection*.8}%
+\contentsline {subsubsection}{Вычисление свойсв}{19}{subsubsection*.10}%
+\contentsline {subsubsection}{Регистр ($T_{Case}$)}{20}{subsubsection*.11}%
+\contentsline {subsubsection}{Позиция термина ($T_{position}$)}{20}{subsubsection*.12}%
+\contentsline {subsubsection}{Нормализация частоты термина ($TF_{norm}$)}{21}{subsubsection*.13}%
+\contentsline {subsubsection}{Связь термина с контекстом}{22}{subsubsection*.14}%
+\contentsline {subsubsection}{Другое предложение термина ($T_{sentence}$)}{23}{subsubsection*.16}%
+\contentsline {subsubsection}{Подсчет оценки термина}{24}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {1.0.6}Сравнение методов}{24}{subsection.1.0.6}%
+\contentsline {subsection}{\numberline {1.0.7}Модификация}{26}{subsection.1.0.7}%
+\contentsline {subsection}{\numberline {1.0.8}Заключение}{27}{subsection.1.0.8}%
+\contentsline {chapter}{\numberline {2}Конструкторский раздел}{28}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Yake}{28}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {2.0.2}Архитектура ПО}{31}{subsection.2.0.2}%
+\contentsline {subsection}{\numberline {2.0.3}Вывод}{33}{subsection.2.0.3}%
+\contentsline {chapter}{\numberline {3}Технологический}{39}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Системные требования}{39}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Язык программирования}{39}{subsection.3.0.2}%
+\contentsline {subsubsection}{Python}{40}{subsubsection*.28}%
+\contentsline {subsubsection}{C++}{40}{subsubsection*.29}%
+\contentsline {subsubsection}{C\#}{41}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {3.0.3}Формат файлов}{42}{subsection.3.0.3}%
+\contentsline {subsection}{\numberline {3.0.4}Библиотеки}{42}{subsection.3.0.4}%
+\contentsline {subsection}{\numberline {3.0.5}Графический интерфейс}{44}{subsection.3.0.5}%
+\contentsline {subsection}{\numberline {3.0.6}Среда разработки}{45}{subsection.3.0.6}%
+\contentsline {subsection}{\numberline {3.0.7}Система контроля версий}{47}{subsection.3.0.7}%
+\contentsline {subsection}{\numberline {3.0.8}Вывод}{47}{subsection.3.0.8}%
+\contentsline {chapter}{\numberline {4}Экспериментальный раздел}{48}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Исследование зависимости результата от параметра n}{48}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Исследование точности метода}{49}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Исследование эффективности метода}{49}{subsection.4.0.3}%
+\contentsline {subsection}{\numberline {4.0.4}Вывод}{52}{subsection.4.0.4}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{53}{chapter*.40}%

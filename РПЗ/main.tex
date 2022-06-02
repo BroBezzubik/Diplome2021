@@ -1,11 +1,7 @@
-\documentclass[a4paper, 14pt]{article}
-
-\input{preamble.tex}
+\documentclass{bmstu}
 
 \usepackage[T2A, T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
-\usepackage{misccorr}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -24,19 +20,11 @@
 \usepackage{titlesec}
 \usepackage{comment}
 
-
-
-% Настройки листингов.
-\include{listings.inc}
-
-% настройка формата изображений
-\numberwithin{figure}{section}
-\usepackage[labelsep=none]{caption}
+\bibliography{biblio}
 
 \begin{document}
+	
     \include{title}
-    \newpage
-    Страничка для титульного листа
     \newpage
     Задание стр 1
     \newpage
@@ -44,7 +32,8 @@
     \newpage	
     \include{ref}
     \newpage
-    \tableofcontents
+    \maketableofcontents
+    
     \listoftodos
     \include{referat}
     \include{intro}
@@ -53,6 +42,9 @@
     \include{techn}
     \include{exper}
     \include{concl}
-    \include{biblist}
+    
+    \makebibliography
+
     \include{supplement}
+    
 \end{document}
