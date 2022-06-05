@@ -1,0 +1,515 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{16}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8ce788ffcd42a36075de4d0eb02573db}{%
+           family={Кульмин},
+           familyi={К\bibinitperiod},
+           given={В.\bibnamedelimi В.},
+           giveni={В\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ce788ffcd42a36075de4d0eb02573db}
+      \strng{fullhash}{8ce788ffcd42a36075de4d0eb02573db}
+      \strng{bibnamehash}{8ce788ffcd42a36075de4d0eb02573db}
+      \strng{authorbibnamehash}{8ce788ffcd42a36075de4d0eb02573db}
+      \strng{authornamehash}{8ce788ffcd42a36075de4d0eb02573db}
+      \strng{authorfullhash}{8ce788ffcd42a36075de4d0eb02573db}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Большая российская газета}
+      \field{title}{Информационная революция [Электронный ресурс]}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bigenc.ru/technology_and_technique/text/2015889
+      \endverb
+      \verb{url}
+      \verb https://bigenc.ru/technology_and_technique/text/2015889
+      \endverb
+    \endentry
+    \entry{2}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Textual Analysis: A Beginner's Guid [Электронный ресурс]}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www1.cs.columbia.edu/~sbenus/Teaching/APTD/McKee_Ch1.pdf
+      \endverb
+      \verb{url}
+      \verb http://www1.cs.columbia.edu/~sbenus/Teaching/APTD/McKee_Ch1.pdf
+      \endverb
+    \endentry
+    \entry{9}{article}{}
+      \name{author}{2}{}{%
+        {{hash=26a2d1d785f4f6907c02a26e752679c4}{%
+           family={Шереметьева},
+           familyi={Ш\bibinitperiod},
+           given={С.\bibnamedelimi О.},
+           giveni={С\bibinitperiod\bibinitdelim О\bibinitperiod}}}%
+        {{hash=f916303c6e6bcf3a8f4f29869fbd2f8d}{%
+           family={Осмини},
+           familyi={О\bibinitperiod},
+           given={П.\bibnamedelimi Г.},
+           giveni={П\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba6ce964299d974602710159aa7ea9c7}
+      \strng{fullhash}{ba6ce964299d974602710159aa7ea9c7}
+      \strng{bibnamehash}{ba6ce964299d974602710159aa7ea9c7}
+      \strng{authorbibnamehash}{ba6ce964299d974602710159aa7ea9c7}
+      \strng{authornamehash}{ba6ce964299d974602710159aa7ea9c7}
+      \strng{authorfullhash}{ba6ce964299d974602710159aa7ea9c7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Методы и модели автоматического извлечения ключевых слов [Электронный ресурс]}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cyberleninka.ru/article/n/metody-i-modeli-avtomaticheskogo-izvlecheniya-klyuchevyh-slov
+      \endverb
+      \verb{url}
+      \verb https://cyberleninka.ru/article/n/metody-i-modeli-avtomaticheskogo-izvlecheniya-klyuchevyh-slov
+      \endverb
+    \endentry
+    \entry{6}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b9c7e65c5a5ef8076a9d7ec3e633fa0}{%
+           family={Соколов},
+           familyi={С\bibinitperiod},
+           given={А.\bibnamedelimi Н},
+           giveni={А\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \strng{fullhash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \strng{bibnamehash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \strng{authorbibnamehash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \strng{authornamehash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \strng{authorfullhash}{8b9c7e65c5a5ef8076a9d7ec3e633fa0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Внутренняя речь и мышление [Электронный ресурс]}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://search.rsl.ru/ru/record/01008431174
+      \endverb
+      \verb{url}
+      \verb https://search.rsl.ru/ru/record/01008431174
+      \endverb
+    \endentry
+    \entry{7}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b9355532c2561834f8b5f4641802dfd2}{%
+           family={В.},
+           familyi={В\bibinitperiod},
+           given={Виноградова\bibnamedelima Н.},
+           giveni={В\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=2da3ddf37c7e95bc100d15b5d592c438}{%
+           family={Иванов},
+           familyi={И\bibinitperiod},
+           given={В.\bibnamedelimi В.},
+           giveni={В\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{822fe456ae58ee9440930cc7612dc5b9}
+      \strng{fullhash}{822fe456ae58ee9440930cc7612dc5b9}
+      \strng{bibnamehash}{822fe456ae58ee9440930cc7612dc5b9}
+      \strng{authorbibnamehash}{822fe456ae58ee9440930cc7612dc5b9}
+      \strng{authornamehash}{822fe456ae58ee9440930cc7612dc5b9}
+      \strng{authorfullhash}{822fe456ae58ee9440930cc7612dc5b9}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Современные методы автоматизированного извлечения ключевых слов из текста [Электронный ресурс]}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elibrary.ru/item.asp?id=27036419
+      \endverb
+      \verb{url}
+      \verb https://www.elibrary.ru/item.asp?id=27036419
+      \endverb
+    \endentry
+    \entry{3}{article}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatic keyphrases extraction based on NLP and statistical methods [Электронный ресурс]}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://search.rsl.ru/ru/record/01008431174
+      \endverb
+      \verb{url}
+      \verb https://search.rsl.ru/ru/record/01008431174
+      \endverb
+    \endentry
+    \entry{4}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d089436a33f4116087276fcc0e802275}{%
+           family={Paishikar},
+           familyi={P\bibinitperiod},
+           given={Girish},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d089436a33f4116087276fcc0e802275}
+      \strng{fullhash}{d089436a33f4116087276fcc0e802275}
+      \strng{bibnamehash}{d089436a33f4116087276fcc0e802275}
+      \strng{authorbibnamehash}{d089436a33f4116087276fcc0e802275}
+      \strng{authornamehash}{d089436a33f4116087276fcc0e802275}
+      \strng{authorfullhash}{d089436a33f4116087276fcc0e802275}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Keyword extraction from a single document using centrality measures [Электронный ресурс]}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/221205058_Keyword_Extraction_from_a_Single_Document_Using_Centrality_Measures
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/221205058_Keyword_Extraction_from_a_Single_Document_Using_Centrality_Measures
+      \endverb
+    \endentry
+    \entry{5}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d5f8ae7859f2c2cd92abe70017388b0}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{fullhash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{bibnamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authorbibnamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authornamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authorfullhash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Berry Text Mining Application and Theory [Текст]}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d5f8ae7859f2c2cd92abe70017388b0}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{fullhash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{bibnamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authorbibnamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authornamehash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \strng{authorfullhash}{1d5f8ae7859f2c2cd92abe70017388b0}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{YAKE! Keyword extraction from single documents using multiple local features [Электронный ресурс]}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{20}{article}{}
+      \name{author}{2}{}{%
+        {{hash=80923340bc89fdfcf48eec35c9d54f44}{%
+           family={Строганов},
+           familyi={С\bibinitperiod},
+           given={Ю.В.},
+           giveni={Ю\bibinitperiod}}}%
+        {{hash=9a735145fd229f84bd66d8a2663a4296}{%
+           family={Бородин},
+           familyi={Б\bibinitperiod},
+           given={Д.С},
+           giveni={Д\bibinitperiod}}}%
+      }
+      \strng{namehash}{e29707068436485af77e7f9c93ceff83}
+      \strng{fullhash}{e29707068436485af77e7f9c93ceff83}
+      \strng{bibnamehash}{e29707068436485af77e7f9c93ceff83}
+      \strng{authorbibnamehash}{e29707068436485af77e7f9c93ceff83}
+      \strng{authornamehash}{e29707068436485af77e7f9c93ceff83}
+      \strng{authorfullhash}{e29707068436485af77e7f9c93ceff83}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Исследование метода выделения однословных терминов в тематических текстах [Электронный ресурс]}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cyberleninka.ru/article/n/issledovanie-metoda-vydeleniya-odnoslovnyh-terminov-v-tematicheskih-tekstah
+      \endverb
+      \verb{url}
+      \verb https://cyberleninka.ru/article/n/issledovanie-metoda-vydeleniya-odnoslovnyh-terminov-v-tematicheskih-tekstah
+      \endverb
+    \endentry
+    \entry{15}{article}{}
+      \name{author}{3}{}{%
+        {{hash=540157d7052564964e568076a187235e}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cc6caef30f9f980e9a91923a2e6d1660}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3a2810eae1b0cde1e8e9ec1566bdc7f5}{%
+           family={Cramer},
+           familyi={C\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \strng{fullhash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \strng{bibnamehash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \strng{authorbibnamehash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \strng{authornamehash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \strng{authorfullhash}{3d456dcaf106478f9ef5d86cfc2457fc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatic Keyword Extraction from individual Document [Электронный ресурс]}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents
+      \endverb
+    \endentry
+    \entry{18}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4f9416c254cf8b668da37ea8e6f1f89d}{%
+           family={Luhn},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IBM}%
+      }
+      \strng{namehash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \strng{fullhash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \strng{bibnamehash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \strng{authorbibnamehash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \strng{authornamehash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \strng{authorfullhash}{4f9416c254cf8b668da37ea8e6f1f89d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{The Automatic Creation of Literature Abstracts [Электронный ресурс]}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{year}{1958}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/5392672
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/5392672
+      \endverb
+    \endentry
+    \entry{19}{article}{}
+      \name{author}{3}{}{%
+        {{hash=134adebcb0d1e637c4169c05668c2b83}{%
+           family={Machado},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fec8279f4e3d935803e797c5153b5173}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e6d4a58584b25a2923b057d6cdce34cd}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6228c1095438615e1bca89306da4c8f5}
+      \strng{fullhash}{6228c1095438615e1bca89306da4c8f5}
+      \strng{bibnamehash}{6228c1095438615e1bca89306da4c8f5}
+      \strng{authorbibnamehash}{6228c1095438615e1bca89306da4c8f5}
+      \strng{authornamehash}{6228c1095438615e1bca89306da4c8f5}
+      \strng{authorfullhash}{6228c1095438615e1bca89306da4c8f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Universal Mobile Information Retrieval [Электронный ресурс]}
+      \field{urlday}{10}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-642-02710-9_38
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-642-02710-9_38
+      \endverb
+    \endentry
+    \entry{22}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e10b81e5958537096199c8d128af65e1}{%
+           family={Ершов},
+           familyi={Е\bibinitperiod},
+           given={М.И.},
+           giveni={М\bibinitperiod}}}%
+      }
+      \strng{namehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{fullhash}{e10b81e5958537096199c8d128af65e1}
+      \strng{bibnamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authorbibnamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authornamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authorfullhash}{e10b81e5958537096199c8d128af65e1}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{МНОГОКОМПОНЕНТНЫЕ ТЕРМИНЫ СФЕРЫ ТЕПЛОЭНЕРГЕТИКИ [Электронный ресурс]}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://elar.urfu.ru/bitstream/10995/60427/1/978-5-8295-0572-1_2018_01_50.pdf
+      \endverb
+      \verb{url}
+      \verb https://elar.urfu.ru/bitstream/10995/60427/1/978-5-8295-0572-1_2018_01_50.pdf
+      \endverb
+    \endentry
+    \entry{21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3c84c7b6192bb38d0c58d9b365ddbb15}{%
+           family={Гудков},
+           familyi={Г\bibinitperiod},
+           given={В.\bibnamedelimi Ю.},
+           giveni={В\bibinitperiod\bibinitdelim Ю\bibinitperiod}}}%
+        {{hash=aff0345f4385a2d455e55a328f0c03e4}{%
+           family={Ф.},
+           familyi={Ф\bibinitperiod},
+           given={Гудкова\bibnamedelima E.},
+           giveni={Г\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d9668518b63b49cee10decfbf47d4bc}
+      \strng{fullhash}{1d9668518b63b49cee10decfbf47d4bc}
+      \strng{bibnamehash}{1d9668518b63b49cee10decfbf47d4bc}
+      \strng{authorbibnamehash}{1d9668518b63b49cee10decfbf47d4bc}
+      \strng{authornamehash}{1d9668518b63b49cee10decfbf47d4bc}
+      \strng{authorfullhash}{1d9668518b63b49cee10decfbf47d4bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{N-грамммы в лингвистике [Электронный ресурс]}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://lab314.brsu.by/kmp-lite/kmp2/Translation/MT/MT-Corpus/n-grammy-v-lingvistike.pdf
+      \endverb
+      \verb{url}
+      \verb http://lab314.brsu.by/kmp-lite/kmp2/Translation/MT/MT-Corpus/n-grammy-v-lingvistike.pdf
+      \endverb
+    \endentry
+    \entry{23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e10b81e5958537096199c8d128af65e1}{%
+           family={Ершов},
+           familyi={Е\bibinitperiod},
+           given={М.И.},
+           giveni={М\bibinitperiod}}}%
+      }
+      \strng{namehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{fullhash}{e10b81e5958537096199c8d128af65e1}
+      \strng{bibnamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authorbibnamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authornamehash}{e10b81e5958537096199c8d128af65e1}
+      \strng{authorfullhash}{e10b81e5958537096199c8d128af65e1}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Portable Document Format [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://helpx.adobe.com/ru/incopy/using/pdf.html
+      \endverb
+      \verb{url}
+      \verb https://helpx.adobe.com/ru/incopy/using/pdf.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,45 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{РЕФЕРАТ}{5}{chapter*.2}%
+\contentsline {chapter}{ОПРЕДЕЛЕНИЯ}{8}{chapter*.4}%
+\contentsline {chapter}{ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}{9}{chapter*.5}%
+\contentsline {chapter}{ВВЕДЕНИЕ}{10}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Аналитический раздел}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Задача автоматического извлечения ключевых слов из текста на естественном языке}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Систематизация методов}{14}{section.1.2}%
+\contentsline {section}{\numberline {1.3}TF-IDF}{18}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Rake}{19}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Yake}{19}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Предварительная обработка текста и определение списка кандидатов}{20}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Вычисление свойств}{21}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Регистр ($T_{Case}$)}{22}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Позиция термина ($T_{position}$)}{22}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Нормализация частоты термина ($TF_{norm}$)}{23}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Связь термина с контекстом}{24}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Другое предложение термина ($T_{sentence}$)}{25}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Подсчет оценки термина}{26}{subsection.1.5.8}%
+\contentsline {section}{\numberline {1.6}Сравнение методов}{26}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Модификация}{28}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Заключение}{29}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Конструкторский раздел}{30}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Yake}{30}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Архитектура ПО}{33}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Вывод}{35}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Технологический раздел}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Системные требования}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Язык программирования}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Python}{42}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}C++}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}C\#}{43}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Формат входных данных}{44}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Библиотеки}{44}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Графический интерфейс}{46}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Среда разработки}{47}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Система контроля версий}{48}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Вывод}{48}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Исследовательский раздел}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Исследование характеристик метода}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Исследование влияния размерности N-грамм на работу метода}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Вывод}{51}{section.4.3}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{52}{chapter*.26}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{54}{chapter*.27}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{55}{appendix.1.A}%
