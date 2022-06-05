@@ -27,7 +27,7 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         self.ExtractButton.clicked.connect(self.run)
 
         # Дополнительные внутрнение переменые
-        self.files = None
+        self.files = []
         self.methods_checkbox = {
             'yake': self.yake_checkbox,
             'yakemodified': self.yakemodified_checkbox,
@@ -95,6 +95,9 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
     #     return text
 
     def get_text(self):
+        text = self.TextEdit.toPlainText()
+        if text:
+            yield text, "Результат из поля ввода"
         for file in self.files:
             yield textract.process(file).decode('utf-8'), file.rsplit('/', 1)[1]
 
