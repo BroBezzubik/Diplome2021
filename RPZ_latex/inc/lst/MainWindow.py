@@ -105,25 +105,3 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
             print(f"Документ работы: {filename}")
             self.simpl_result(result)
             print("\n\n")
-
-
-    # Для одиночных запусков
-    # def run(self):
-    #     text = self.get_text()
-    #     settings = self.get_settings()
-    #     methods = self.get_methods()
-    #     methods = self.setup_methods(methods, settings)
-    #     result = self.extract_keywords(text, methods)
-    #     self.display_result(result)
-
-    # def get_text(self):
-    #     text = self.TextEdit.toPlainText()
-    #     if self.file:
-    #         text = textract.process(self.file)
-    #         # Добавлена заглушка что бы постоянно не генерировать и не вставлять текст
-    #         return text.decode('utf-8')
-    #     return text
-    # def browse_files(self):
-    #     file_path = QtWidgets.QFileDialog.getOpenFileName(self, directory='/home/bezzubik/Projects/Diplome2021/YRake/Literature')[0]
-    #     self.file_name_label.setText(file_path.rsplit('/', 1)[1])
-    #     self.file = file_path

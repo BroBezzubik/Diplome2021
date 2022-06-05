@@ -31,34 +31,33 @@
 	\item подсчет финальной оценки терминов (рисунок \ref{fig:02a0} блок А5)
 \end{enumerate}
 
-Формально этап обработки и выделения кандидатов, отображен на рисунке \ref{fig:03a1}
+Формально весь процесс работы алгоритма отображен на изображениях \ref{fig:yake1} - \ref{fig:yake3}
+% TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\linewidth]{src/img/idef0/Yake/03_A1}
-	\caption{IDEF0 диаграмма этапа предварительного этапа обработки текста}
-	\label{fig:03a1}
+	\includegraphics[width=0.7\linewidth]{src/img/design/yake_1}
+	\caption{Предварительная обработка текста}
+	\label{fig:yake1}
 \end{figure}
 
+% TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/feature_ext_1}
-	\caption{Начало извлечения характеристик}
-	\label{fig:featureext1}
+	\includegraphics[width=0.7\linewidth]{src/img/design/yake_2}
+	\caption{Вычисление висов методов}
+	\label{fig:yake2}
 \end{figure}
 
+% TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{src/img/design/feature_ext_2}
-	\caption{Извлечение характеристик}
-	\label{fig:featureext2}
+	\includegraphics[width=0.7\linewidth]{src/img/design/yake_3}
+	\caption{Вычисление N-грамм}
+	\label{fig:yake3}
 \end{figure}
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/feature_ext_3}
-	\caption{Завершение извлечения характеристик}
-	\label{fig:featureext3}
-\end{figure}
+
+
 В начале происходит предварительное форматирование текста, путем замены спецсимволов, таких как табуляция, перенос на новую строку и т.п. на пробелы.
 Затем текст разбивается на предложения, а сами предложения на сегменты, используются на этапе оценки свойств кандидатов и построении н-грамм. 
 После этого из полученных данных извлекаются уникальные термин-кандидаты с контекстной информацией.

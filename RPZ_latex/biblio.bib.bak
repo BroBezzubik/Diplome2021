@@ -73,13 +73,42 @@
 }
 
 @Article{18,
-	author  = {Luhn, H. P.},
-	title   = {The Automatic Creation of Literature Abstracts [Электронный ресурс]},
-	url     = {https://ieeexplore.ieee.org/document/5392672},
-	urldate = {2022-02-02},
-	publisher = {IBM}
+  author    = {Luhn, H. P.},
+  title     = {The Automatic Creation of Literature Abstracts [Электронный ресурс]},
+  year      = {1958},
+  month     = apr,
+  publisher = {IBM},
+  url       = {https://ieeexplore.ieee.org/document/5392672},
+  urldate   = {2022-02-02},
 }
 
+@Article{19,
+	author    = {David Machado and Tiago Barbosa and Bruno Martins},
+	title     = {Universal Mobile Information Retrieval [Электронный ресурс]},
+	url       = {https://link.springer.com/chapter/10.1007/978-3-642-02710-9_38},
+	urldate   = {2022-02-10},
+}
+
+@Article{21,
+	author    = {Гудков, В. Ю. and Гудкова E. Ф.},
+	title     = {N-грамммы в лингвистике [Электронный ресурс]},
+	url       = {http://lab314.brsu.by/kmp-lite/kmp2/Translation/MT/MT-Corpus/n-grammy-v-lingvistike.pdf},
+	urldate   = {2022-03-26},
+}
+
+@Article{22,
+	author    = {Ершов, М.И.},
+	title     = {МНОГОКОМПОНЕНТНЫЕ ТЕРМИНЫ СФЕРЫ ТЕПЛОЭНЕРГЕТИКИ [Электронный ресурс]},
+	url       = {https://elar.urfu.ru/bitstream/10995/60427/1/978-5-8295-0572-1_2018_01_50.pdf},
+	urldate   = {2022-04-26},
+}
+
+@Article{23,
+	author    = {Ершов, М.И.},
+	title     = {Portable Document Format [Электронный ресурс]},
+	url       = {https://helpx.adobe.com/ru/incopy/using/pdf.html},
+	urldate   = {2022-05-12},
+}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
