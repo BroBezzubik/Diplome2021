@@ -27,7 +27,7 @@
 	\item предварительная обработка текста и выделение кандидатов (рисунок \ref{fig:02a0} блок А1)
 	\item вычисление свойств термин-кандидатов (рисунок \ref{fig:02a0} блок А2)
 	\item подсчет оценки кадидатов (рисунок \ref{fig:02a0} блок А3)
-	\item генерация н-грамм и подсчет оценки (рисунок \ref{fig:02a0} блок А4)
+	\item генерация N-грамм и подсчет оценки (рисунок \ref{fig:02a0} блок А4)
 	\item подсчет финальной оценки терминов (рисунок \ref{fig:02a0} блок А5)
 \end{enumerate}
 
@@ -35,7 +35,7 @@
 % TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/yake_1}
+	\includegraphics[width=0.9\linewidth]{src/img/design/yake_1}
 	\caption{Предварительная обработка текста}
 	\label{fig:yake1}
 \end{figure}
@@ -43,20 +43,18 @@
 % TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/yake_2}
-	\caption{Вычисление висов методов}
+	\includegraphics[width=0.9\linewidth]{src/img/design/yake_2}
+	\caption{Вычисление весов методов}
 	\label{fig:yake2}
 \end{figure}
 
 % TODO: \usepackage{graphicx} required
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/yake_3}
+	\includegraphics[width=0.9\linewidth]{src/img/design/yake_3}
 	\caption{Вычисление N-грамм}
 	\label{fig:yake3}
 \end{figure}
-
-
 
 В начале происходит предварительное форматирование текста, путем замены спецсимволов, таких как табуляция, перенос на новую строку и т.п. на пробелы.
 Затем текст разбивается на предложения, а сами предложения на сегменты, используются на этапе оценки свойств кандидатов и построении н-грамм. 
@@ -67,14 +65,14 @@
 Теперь необходимо вычислить свойства терминов, процесс вычисления отображен на рисунках \ref{fig:calculate1}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/calculate_1}
+	\includegraphics[width=0.9\linewidth]{src/img/design/calculate_1}
 	\caption{Вычисление общих свойств}
 	\label{fig:calculate1}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{src/img/design/calculate_2}
+	\includegraphics[width=0.9\linewidth]{src/img/design/calculate_2}
 	\caption{Вычисление свойств для каждого термина}
 	\label{fig:calculate2}
 \end{figure}
@@ -92,7 +90,7 @@
 \end{enumerate}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\linewidth]{src/img/design/mvc.drawio}
+	\includegraphics[width=0.9\linewidth]{src/img/design/mvc.drawio}
 	\caption{Схематичное преставление архитектуры ПО}
 	\label{fig:mvc}
 \end{figure}
@@ -121,7 +119,7 @@
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\linewidth]{src/img/class_diagram}
+	\includegraphics[width=0.9\linewidth]{src/img/class_diagram}
 	\caption{Схематическое представление архитектуры классов программного обеспечения}
 	\label{fig:classdiagram}
 \end{figure}

@@ -23,7 +23,7 @@
 \contentsline {chapter}{\numberline {2}Конструкторский раздел}{30}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Yake}{30}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Архитектура ПО}{33}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Вывод}{36}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Вывод}{37}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Технологический раздел}{38}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Системные требования}{38}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Язык программирования}{38}{section.3.2}%
@@ -38,8 +38,8 @@
 \contentsline {section}{\numberline {3.8}Вывод}{45}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Исследовательский раздел}{46}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Исследование характеристик метода}{46}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Исследование влияния размерности N-грамм на работу метода}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Исследование влияния размерности N-грамм на работу метода}{47}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Вывод}{48}{section.4.3}%
-\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{49}{chapter*.25}%
-\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{52}{chapter*.26}%
-\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{53}{appendix.1.A}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{50}{chapter*.25}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{53}{chapter*.26}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{54}{appendix.1.A}%
