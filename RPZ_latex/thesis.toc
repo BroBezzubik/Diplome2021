@@ -41,5 +41,5 @@
 \contentsline {section}{\numberline {4.2}Исследование влияния размерности N-грамм на работу метода}{48}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Вывод}{48}{section.4.3}%
 \contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{49}{chapter*.25}%
-\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{51}{chapter*.26}%
-\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{52}{appendix.1.A}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{52}{chapter*.26}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{53}{appendix.1.A}%

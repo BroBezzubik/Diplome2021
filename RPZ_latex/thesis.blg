@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[232] biber-MSWIN64:340> INFO - === 
-[327] Biber.pm:418> INFO - Reading 'thesis.bcf'
-[620] Biber.pm:972> INFO - Found 16 citekeys in bib section 0
-[650] Biber.pm:4383> INFO - Processing section 0
+[205] biber-MSWIN64:340> INFO - === 
+[289] Biber.pm:418> INFO - Reading 'thesis.bcf'
+[626] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
+[652] Biber.pm:4383> INFO - Processing section 0
 [671] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[797] bibtex.pm:1713> INFO - LaTeX decoding ...
-[824] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[800] bibtex.pm:1713> INFO - LaTeX decoding ...
+[822] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
 [967] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [967] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
 [967] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
 [967] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[996] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1007] bbl.pm:757> INFO - Output to thesis.bbl
+[994] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1004] bbl.pm:757> INFO - Output to thesis.bbl

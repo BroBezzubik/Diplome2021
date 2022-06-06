@@ -509,6 +509,36 @@
       \verb https://helpx.adobe.com/ru/incopy/using/pdf.html
       \endverb
     \endentry
+    \entry{24}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3f7ec258c777be8ae28e94131394a1a5}{%
+           family={Трифонов},
+           familyi={Т\bibinitperiod},
+           given={Д.\bibnamedelimi И.},
+           giveni={Д\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f7ec258c777be8ae28e94131394a1a5}
+      \strng{fullhash}{3f7ec258c777be8ae28e94131394a1a5}
+      \strng{bibnamehash}{3f7ec258c777be8ae28e94131394a1a5}
+      \strng{authorbibnamehash}{3f7ec258c777be8ae28e94131394a1a5}
+      \strng{authornamehash}{3f7ec258c777be8ae28e94131394a1a5}
+      \strng{authorfullhash}{3f7ec258c777be8ae28e94131394a1a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Идентификация личности по фрактальной размерности отпечатков пальцев и системы контроля и управления доступом [Электронный ресурс]}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cyberleninka.ru/article/n/identifikatsiya-lichnosti-po-fraktalnoy-razmernosti-otpechatkov-paltsev-i-sistemy-kontrolya-i-upravleniya-dostupom
+      \endverb
+      \verb{url}
+      \verb https://cyberleninka.ru/article/n/identifikatsiya-lichnosti-po-fraktalnoy-razmernosti-otpechatkov-paltsev-i-sistemy-kontrolya-i-upravleniya-dostupom
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
